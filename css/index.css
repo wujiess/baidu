@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    min-width: 1200px;
+    min-width: 1280px;
 }
 
 .navigation>ul {
@@ -99,7 +99,7 @@ header {
 .search-word {
     width: 550px;
     height: 44px;
-    border: 2px solid #c4c7ce;
+    border: 2px solid #4e6ef2;
     border-radius: 10px 0 0 10px;
     display: flex;
     align-items: center;
@@ -132,4 +132,23 @@ header {
     color: #fff;
     font-size: 17px;
     margin-left: -2px;
+}
+
+footer>div {
+    position: fixed;
+    bottom: 8px;
+    width: 100%;
+}
+
+footer>div>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1280px;
+    margin: auto;
+}
+
+footer>div>ul>li {
+    font-size: 12px;
+    color: #bbb;
 }
