@@ -1,0 +1,78 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1200px;
+}
+
+.navigation>ul {
+    display: flex;
+    margin-left: 19px;
+}
+
+.navigation>ul>li {
+    margin: 19px 31px 19px 0;
+}
+
+.navigation>ul>li>a {
+    color: #222;
+    font-size: 13px;
+}
+
+.user-area {
+    width: 320px;
+    height: 60px;
+    display: flex;
+    margin-right: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-area a {
+    font-size: 13px;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.weather>a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.weather>a>img {
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+}
+
+.air-quality {
+    font-size: 9px;
+    color: #fff;
+    display: inline-block;
+    background-color: #40c057;
+    padding: 0 8px;
+    border-radius: 9px;
+    margin-left: 9px;
+    line-height: 14px;
+}
+
+.profile a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.avatar {
+    width: 28px;
+    height: 28px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 1px solid #4e71f2;
+    margin-right: 5px;
+}
