@@ -27,20 +27,36 @@
         <div>
             <ul class="user-area">
                 <li class="weather">
-                    <a href="#">
+                    <a target="_blank" href="https://www.baidu.com/s?tn=baidutop10&rsv_idx=2&wd=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5">
                         <span>北京</span> <img src="images/a1.png" alt="多云"> 28℃
                     </a>
                     <span class="air-quality">优</span>
                 </li>
                 <li>
-                    <a href="#">设置</a>
+                    <a href="javascript:;">设置</a>
                 </li>
                 <li class="profile">
-                    <a href="#"><img class="avatar" src="images/avatar.jpg" alt="头像" /><span>严拼脸</span></a>
+                    <a target="_blank" href="https://www.baidu.com/my/index"><img class="avatar" src="images/avatar.jpg" alt="头像" /><span>严拼脸</span></a>
                 </li>
             </ul>
+        </div>
     </header>
-    <main></main>
+    <main>
+        <section>
+            <div class="logo">
+                <img src="images/baidu_logo.png" alt="百度">
+            </div>
+            <form action="https://www.baidu.com/s" method="GET">
+                <div class="search">
+                    <div class="search-word">
+                        <input type="text" name="wd" />
+                        <span></span>
+                    </div>
+                    <input type="submit" value="百度一下" class="search-button">
+                </div>
+            </form>
+        </section>
+    </main>
     <footer></footer>
 </body>
 
