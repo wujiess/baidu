@@ -207,8 +207,11 @@ header {
 
 footer>div {
     position: fixed;
-    bottom: 8px;
+    bottom: 0;
     width: 100%;
+    line-height: 39px;
+    padding-bottom: 6px;
+    background-color: #fff;
 }
 
 footer>div>ul {
