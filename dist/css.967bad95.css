@@ -118,7 +118,7 @@
 .search-word>span {
     width: 24px;
     height: 20px;
-    background: #fff url("../images/icon.png") no-repeat;
+    background: #fff url("/icon.82bf699d.png") no-repeat;
     background-position: 0 -51px;
     display: inline-block;
     margin-right: 15px;
@@ -227,3 +227,5 @@ footer>div>ul>li {
     font-size: 12px;
     color: #bbb;
 }
+
+/*# sourceMappingURL=/css.967bad95.css.map */

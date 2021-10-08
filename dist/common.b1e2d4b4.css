@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    color: #315efb;
+}
+
+ul,
+ol,
+dl {
+    list-style: none;
+}
+
+/*# sourceMappingURL=/common.b1e2d4b4.css.map */
